@@ -1,0 +1,54 @@
+*{
+    margin: 1%;
+    padding: 0%;
+   
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(141, 133, 197);
+
+}
+
+.container {
+    height: 100%;
+}
+
+.form-container {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+form label {
+    padding: 10px;
+}
+
+.button :hover {
+ color: whitesmoke;
+font-size: 10px;
+}
+.login-btn {
+    background-color: rgb(211, 215, 219);
+    height: 4%;
+    width: 8%;
+    margin-top: 0%;
+}
+.sign-up-box {
+    height: 75%;
+    width: 100%;
+}
+.signin-btn {
+    height: 4%;
+    width: 8%;
+    margin-bottom: 1%;
+    background-color: rgb(211, 215, 219);
+}
+.button {
+    font-size: 135%;
+}
+.fa-address-card {
+    font-size: 8em;
+}
